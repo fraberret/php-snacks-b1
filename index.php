@@ -10,6 +10,14 @@ $partite_di_basket = array(
     
 );
 
-var_dump($partite_di_basket)
+/* var_dump($partite_di_basket); */
+
+foreach ($partite_di_basket as $partita) {
+    
+
+    echo $partita['casa']." - " .$partita['ospite'] . " | " . $partita['punti_casa']." - " .$partita['punti_ospite']. "<br>";
+
+};
 
 ?>
+
